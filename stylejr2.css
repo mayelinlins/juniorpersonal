@@ -1,0 +1,315 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  background: linear-gradient(to right, #0b0c0e 0%, #17191c 55%, #141516 100%);
+}
+a {
+  color: bisque;
+  text-decoration: none;
+}
+a:hover {
+  color: #f2b040;
+  text-decoration: underline;
+}
+/* seção do inicio na horizontal*/
+header {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  width: 100%;
+  min-width: 0;
+}
+.nometopo {
+  color: antiquewhite;
+  font-size: medium;
+  margin-left: 5rem;
+  padding: 1rem;
+}
+/* Aqui dentro está a a cor que comrpoe o inicio - preto - cinza*/
+.inicio {
+  background: linear-gradient(to right, #0b0c0e 0%, #17191c 55%, #141516 100%);
+  border-bottom: 0px solid #3a3a3a;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3a3a3a;
+}
+nav {
+  min-width: 0;
+  max-width: 100%;
+}
+.lista-inicio {
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+}
+/* primeira parte, ajustes da cor do fundo*/
+.parte1 {
+  background: linear-gradient(to right, #0b0c0e 0%, #17191c 55%, #141516 100%);
+  border-bottom: 1px solid #3a3a3a;
+}
+/* primeira parte, ajustaes da imagem ao fundo, 1° foto*/
+.parte1 {
+  background-image:
+    linear-gradient(
+      to right,
+      #121315 40%,
+      rgba(11, 12, 14, 0.8) 55%,
+      rgba(11, 12, 14, 0.15) 100%
+    ),
+    url("jr2.png");
+  background-size:
+    100% 100%,
+    auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+.textos1 {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+span {
+  color: #f2b040;
+}
+.vamos-treinar a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f2b040;
+  color: #02040b;
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+/* inicio - quem sou eu + foto background */
+.parte2 {
+  background-image:
+    linear-gradient(
+      to left,
+      #121315 40%,
+      rgba(11, 12, 14, 0.8) 55%,
+      rgba(11, 12, 14, 0.15) 100%
+    ),
+    url("junior.png");
+  background-size:
+    100% 100%,
+    auto 70%;
+  background-position: left;
+  margin-left: 1rem;
+  background-repeat: no-repeat;
+  .foto {
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+  }
+  border-bottom: 1px solid #3a3a3a;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+
+  .informacao {
+    padding-top: 2rem;
+    list-style: none;
+  }
+  i {
+    color: #f2b040;
+  }
+}
+.textos2 {
+  padding-top: 1rem;
+  margin-left: 0rem;
+  flex: 0 1 700px;
+  min-width: 0;
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+}
+.informacao {
+  padding: 1rem;
+  border-left: 1px solid #f2b040;
+  border-radius: 2rem;
+}
+/* Aqui dentro está foto do halter*/
+.formacao {
+  background-image:
+    linear-gradient(
+      to right,
+      #121315 50%,
+      rgba(11, 12, 14, 0.8) 60%,
+      rgba(11, 12, 14, 0.15) 100%
+    ),
+    url("halter.jpg");
+  background-position:
+    center,
+    right center;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  i {
+    color: #f2b040;
+  }
+  color: antiquewhite;
+  gap: 0rem;
+  border-bottom: 1px solid #3a3a3a;
+}
+.textos3 {
+  margin-left: 2rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  background: rgba(41, 41, 46, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 15px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: solid #f2b040;
+  padding: 2rem;
+  margin-left: 5rem;
+}
+.textos3-2 {
+  margin-top: 2rem;
+  margin-left: 0rem;
+  box-sizing: border-box;
+  background: rgba(41, 41, 46, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 15px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: solid #f2b040;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  li {
+    list-style: none;
+  }
+}
+/* foto 3 - experiência profissional */
+#experiencia {
+  background-image:
+    linear-gradient(
+      to left,
+      #121315 50%,
+      rgba(11, 12, 14, 0.8) 60%,
+      rgba(11, 12, 14, 0.15) 100%
+    ),
+    url("foto3.png");
+  background-size:
+    100% 100%,
+    auto 70%;
+  background-position: left;
+  margin-left: 1rem;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #3a3a3a;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 4rem;
+
+  .textos4,
+  .habilidades,
+  .especializacoes {
+    padding-top: 2rem;
+    width: 20%;
+  }
+  i {
+    color: #f2b040;
+  }
+  li {
+    list-style: none;
+  }
+}
+.textos4,
+.especializacoes {
+  padding: 1rem;
+  border-right: 1px solid #f2b040;
+}
+/* ultima parte - contato */
+#contato {
+  background-image:
+    linear-gradient(
+      to left,
+      #121315 50%,
+      rgba(11, 12, 14, 0.8) 60%,
+      rgba(11, 12, 14, 0.15) 100%
+    ),
+    url("contato.jpg");
+
+  background-size:
+    100% 100%,
+    auto 100%;
+  background-position:
+    center,
+    left center;
+  background-repeat: no-repeat;
+
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #3a3a3a;
+  ul {
+    list-style: none;
+  }
+}
+.textos5 {
+  margin-left: 3rem;
+  border-bottom: 2px solid #f2b040;
+}
+.textos6 {
+  padding-top: 2rem;
+  list-style: none;
+  font-size: medium;
+}
+.agende a {
+  text-decoration: none;
+  background-color: #f2b040;
+  color: #02040b;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 1rem;
+  margin-right: 8rem;
+}
+.rodape {
+  color: antiquewhite;
+  background: linear-gradient(to right, #0b0c0e 0%, #17191c 55%, #141516 100%);
+  h1 {
+    margin-left: 5rem;
+  }
+  p {
+    margin-right: 2rem;
+  }
+}
